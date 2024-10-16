@@ -108,6 +108,7 @@ public class JavaFileCreator {
                 JOptionPane.showMessageDialog(frame, "Error modifying gradle.properties file.", "Error", JOptionPane.ERROR_MESSAGE);
             }
         });
+        frame.setLocationRelativeTo(null);
     }
 
     // Method to convert a mod name to camelCase
